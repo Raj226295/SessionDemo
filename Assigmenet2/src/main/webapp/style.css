@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+}
+
+/* Page heading */
+h2 {
+    text-align: center;
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    background: #ffffff;
+    width: 360px;
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Input fields & dropdown */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.4);
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #6c63ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background: #5548d9;
+}
+
+/* Error & success messages (for servlet response) */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
